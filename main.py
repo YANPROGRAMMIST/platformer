@@ -11,6 +11,7 @@ pygame.init()
 screen = pygame.display.set_mode((WIDHT, HEIGHT)) 
 pygame.display.set_caption(World)
 clock = pygame.time.Clock()
+
 running = True
 
 while running:
