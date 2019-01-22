@@ -1,12 +1,6 @@
 import pygame
-
-WIDHT = 640
-HEIGHT = 480
-FPS = 60
-World = 'Platformer'
-
-
-RED = (255,0,0)
+from constants import *
+from player import Player
 pygame.init()
 screen = pygame.display.set_mode((WIDHT, HEIGHT)) 
 pygame.display.set_caption(World)
@@ -28,3 +22,6 @@ while running:
 
 pygame.quit()
     
+
+
+     
