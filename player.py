@@ -7,7 +7,7 @@ class Player(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
         raw_surface = pygame.image.load(player_image).convert_alpha()
         scale_coefficient = PLAYER_SHIP_WIDTH / raw_surface.get_rect().width
-        self.image =pygame.transform.rotozoom(
+        self.image = pygame.transform.rotozoom(
             raw_surface,\
             180,\
             scale_coefficient\
