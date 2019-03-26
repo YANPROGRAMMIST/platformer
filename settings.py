@@ -8,4 +8,4 @@ enemy_image = os.path.join(game_folder, 'resources', 'img', 'Enemy.png')
 
 shoot_image = os.path.join(game_folder,'resources','img','shoot.png')
 
-level1_image = os.path.join(game_folder, 'recources', 'img', 'level1.jpg')
+level1_image = os.path.join(game_folder, 'resources', 'img', 'level1.jpg')
