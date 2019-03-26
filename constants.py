@@ -1,5 +1,5 @@
-WIDTH = 640
-HEIGHT = 640
+WIDTH = 800
+HEIGHT = 600
 FPS = 60
 World = 'Platformer'
 
